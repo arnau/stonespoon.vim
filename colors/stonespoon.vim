@@ -86,8 +86,8 @@ hi Special term=bold cterm=NONE ctermbg=234 ctermfg=81
 hi SpecialChar term=NONE cterm=NONE ctermbg=bg ctermfg=117
 hi SpecialComment term=NONE cterm=NONE ctermbg=bg ctermfg=244
 hi SpecialKey term=bold cterm=NONE ctermbg=bg ctermfg=59
-hi SpellBad term=reverse cterm=undercurl ctermbg=bg ctermfg=196
-hi SpellCap term=reverse cterm=undercurl ctermbg=bg ctermfg=63
+hi SpellBad term=bold cterm=NONE ctermbg=16 ctermfg=196
+hi SpellCap term=bold cterm=NONE ctermbg=16 ctermfg=154
 hi SpellLocal term=underline cterm=undercurl ctermbg=bg ctermfg=87
 hi SpellRare term=reverse cterm=undercurl ctermbg=bg ctermfg=231
 hi Statement term=bold cterm=NONE ctermbg=bg ctermfg=227
