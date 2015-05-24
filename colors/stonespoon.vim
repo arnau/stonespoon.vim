@@ -65,7 +65,7 @@ hi IncSearch term=reverse cterm=reverse ctermbg=155 ctermfg=16
 hi Keyword term=NONE cterm=NONE ctermbg=bg ctermfg=81
 hi Label term=NONE cterm=NONE ctermbg=bg ctermfg=81
 hi LineNr term=underline cterm=NONE ctermbg=235 ctermfg=59
-hi Macro term=NONE cterm=NONE ctermbg=bg ctermfg=186
+hi Macro term=NONE cterm=NONE ctermbg=bg ctermfg=227
 hi MatchParen term=reverse cterm=NONE ctermbg=238 ctermfg=145
 hi ModeMsg term=bold cterm=bold ctermbg=bg ctermfg=227
 hi MoreMsg term=bold cterm=bold ctermbg=bg ctermfg=227
@@ -76,7 +76,7 @@ hi Pmenu term=NONE cterm=NONE ctermbg=16 ctermfg=81
 hi PmenuSbar term=NONE cterm=NONE ctermbg=232 ctermfg=fg
 hi PmenuSel term=NONE cterm=NONE ctermbg=244 ctermfg=fg
 hi PmenuThumb term=NONE cterm=NONE ctermbg=16 ctermfg=81
-hi PreCondit term=NONE cterm=NONE ctermbg=bg ctermfg=186
+hi PreCondit term=NONE cterm=NONE ctermbg=bg ctermfg=227
 hi PreProc term=underline cterm=NONE ctermbg=bg ctermfg=227
 hi Question term=NONE cterm=bold ctermbg=bg ctermfg=81
 hi Repeat term=NONE cterm=NONE ctermbg=bg ctermfg=117
@@ -110,8 +110,26 @@ hi Visual term=NONE cterm=NONE ctermbg=238 ctermfg=fg
 hi VisualNOS term=NONE cterm=NONE ctermbg=238 ctermfg=fg
 hi WarningMsg term=NONE cterm=NONE ctermbg=238 ctermfg=231
 hi WildMenu term=NONE cterm=NONE ctermbg=16 ctermfg=81
-hi iCursor term=NONE cterm=NONE ctermbg=243 ctermfg=255
+hi iCursor term=NONE cterm=NONE ctermbg=bg ctermfg=81
+
+" HTML/Markdown {{{
 hi! link htmlItalic String
 hi! link htmlBold Title
 hi! link htmlUnderline Underlined
 hi markdownCodeBlock term=NONE cterm=NONE ctermbg=238 ctermfg=fg
+" }}}
+
+" N3/Turtle {{{
+hi n3URI term=NONE cterm=NONE ctermbg=bg ctermfg=227
+hi n3PropertyName term=NONE cterm=NONE ctermbg=bg ctermfg=81
+hi! link n3Prefix Normal
+
+hi! link n3Datatype Constant
+hi! link n3EndStatement Normal
+hi! link n3Langcode Constant
+hi! link n3Number String
+hi! link n3Separator Normal
+hi! link n3String String
+hi! link n3StringDelim StringDelimiter
+hi! link n3XMLLiteralRegion String
+" }}}
