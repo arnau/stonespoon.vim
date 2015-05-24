@@ -116,7 +116,7 @@ hi iCursor term=NONE cterm=NONE ctermbg=bg ctermfg=81
 hi! link htmlItalic String
 hi! link htmlBold Title
 hi! link htmlUnderline Underlined
-hi markdownCodeBlock term=NONE cterm=NONE ctermbg=238 ctermfg=fg
+hi markdownCodeBlock term=NONE cterm=NONE ctermbg=236 ctermfg=250
 " }}}
 
 " N3/Turtle {{{
