@@ -1,12 +1,10 @@
 # Stone Spoon Vim dark theme
 
-Light blue, light yellow with green spots.
+Magenta, Light blue, light yellow with green spots.
 
 ## Credits
 
 Arnau Siches (c) 2015
-
-Teaspoon is based on the functions of Jellybeans Vim Color Scheme so thanks to its creators and its contributors.
 
 ## License
 
